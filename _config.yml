@@ -29,16 +29,16 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-webmention_io
+#  - jekyll-webmention_io
 
-webmentions:
-  username: CYB_ORG_UK
-  cache_folder: .cache
-  webmentions:
-    username: YOUR_USERNAME
-    cache_folder: .cache
+#webmentions:
+#  username: CYB_ORG_UK
+#  cache_folder: .cache
+#  webmentions:
+#    username: YOUR_USERNAME
+#    cache_folder: .cache
     # skip bad URLs for 5 days
-    cache_bad_uris_for: 5
+#   cache_bad_uris_for: 5
 
 # Sidebar link settings
 sidebar_home_link:  true
@@ -46,7 +46,7 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-                                
-exclude: 
+
+exclude:
   - ftpmirror.sh
   - archive
