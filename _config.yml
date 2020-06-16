@@ -1,0 +1,52 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            cyb.org.uk
+tagline:          "Just some guy's blog"
+description:      'A blog about technology & open source'
+url:              https://cyb.org.uk
+baseurl:          '/'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Cy Borg'
+  url:            https://cyb.org.uk
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+disqus:
+          shortname: cyb-org-uk
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-webmention_io
+
+webmentions:
+  username: CYB_ORG_UK
+  cache_folder: .cache
+  webmentions:
+    username: YOUR_USERNAME
+    cache_folder: .cache
+    # skip bad URLs for 5 days
+    cache_bad_uris_for: 5
+
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+                                
+exclude: 
+  - ftpmirror.sh
+  - archive

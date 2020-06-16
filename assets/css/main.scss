@@ -1,0 +1,23 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+.centre-image
+{
+   margin: 0 auto;
+   display: block;
+   }
+.image-caption 
+{
+   text-align: center;
+   font-size: .8rem;
+   color: light-grey;
+   }
+
+$sidebar-bg-color: #004142;
+$link-color: #004142;
+$sidebar-sticky: true;
+$layout_reverse: true;
+@import "hydeout";
+
+
