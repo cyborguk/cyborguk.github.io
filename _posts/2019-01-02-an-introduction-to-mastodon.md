@@ -1,11 +1,11 @@
 ---
 layout: post
 title: An introduction to Mastodon
-categories: 
+categories:
   - article
-tags: 
+tags:
   - mastodon
-  - decentralisation
+  - social-media
 ---
 
 A guide for Google+ refugees and Open Source enthusiasts
