@@ -1,8 +1,13 @@
---- layout: post title: "My favourite video games" categories:
-  - article tags:
+---
+layout: post
+title: "My favourite video games"
+categories:
+  - article
+tags:
   - gaming
   - retro
-  - lists ---
+  - lists
+---
 
 This is not an list of the "best", most popular and most technically brilliant
 games ever, although many of them are. This is a non-exhaustive list of games I
