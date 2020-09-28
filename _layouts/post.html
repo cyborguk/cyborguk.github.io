@@ -1,6 +1,6 @@
 ---
 layout: default
-comments: true
+comments: false
 ---
 
 <header>
@@ -13,7 +13,7 @@ comments: true
     {{ content }}
     {% include post-tags.html post=page %}
   </div>
-
-  {% include comments.html %}
+  <!-- don't include comments for now -->
+  <!--  {% include comments.html %} -->
   {% include related_posts.html %}
 </div>

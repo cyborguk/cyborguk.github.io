@@ -24,8 +24,8 @@ paginate:         5
 
 permalink: /:year/:month/:day/:title:output_ext
 
-disqus:
-          shortname: cyb-org-uk
+#disqus:
+#          shortname: cyb-org-uk
 
 plugins:
   - jekyll-feed
