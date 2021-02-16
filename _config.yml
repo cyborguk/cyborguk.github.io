@@ -52,3 +52,6 @@ sidebar_home_link:  true
 exclude:
   - ftpmirror.sh
   - archive
+  - venv
+  - tests
+  - ci_test.sh
