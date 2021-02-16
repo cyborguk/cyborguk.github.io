@@ -51,7 +51,8 @@ process.
 I had to join a meeting, which gave me some reflection time, thinking about
 `ldd` and `$LD_LIBRARY_PATH`. I've worked with this stuff for years, and I
 thought I knew what the error meant, that the library couldn't be found in the
-system. It felt like I was being trolled. 
+system. I had checked and double-checked, and it wasn't a missing library. It
+felt like I was being trolled. 
 
 I had been doing some other background tasks in the meantime, to remain
 productive while I churned over this issue in my mind, or while I waited for
@@ -63,12 +64,11 @@ Finally, I had a breakthrough. Searching for the specific Qt5 error produced a
 lot of noise, but I noticed something I had seen earlier in the day when the issue
 was more nebulous in my mind. By now I believed that my paths were correct, and
 I had installed the application correctly, so I took a bit more interest when I
-saw: 
+saw [this page](https://itectec.com/ubuntu/ubuntu-ubuntu-18-4-libqt5core-so-5-cannot-open-shared-object-file-no-such-file-or-directory/).
 
 > "The kernel needs to be at least 3.15 for a very real but (to me) esoteric
 > reason: "Qt 5.10 uses the [renameat2](https://man7.org/linux/man-pages/man2/rename.2.html)
-> system call which is only available since kernel 3.15" on
-> [this page](https://itectec.com/ubuntu/ubuntu-ubuntu-18-4-libqt5core-so-5-cannot-open-shared-object-file-no-such-file-or-directory/).
+> system call which is only available since kernel 3.15". 
 
 Although I was running newer distros in my containers, the underlying operating
 system was CentOS 7, and hence an older kernel. 
