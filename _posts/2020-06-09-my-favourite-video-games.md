@@ -18,7 +18,7 @@ my time, with a nostalgic edge.
 
 Collect all the eggs on each level while avoiding the storks. A great
 platformer with nice clear graphics, and good speed while the
-near-indestructable character Hen-Hunter Harry flies
+near-indestructible character Hen-Hunter Harry flies
 around the screen. The game, which has echoes of Donkey Kong (but in my
 opinion, more enjoyable), was originally designed by a 16-year old boy for the
 ZX Spectrum, and made it onto many other platforms. The Spectrum version should
