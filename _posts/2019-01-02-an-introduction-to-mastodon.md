@@ -107,7 +107,7 @@ Many first-time users join one of the most popular instances, such as [mastodon.
 As a free & open-source software enthusiast, with particular focus for Linux, I want to post, learn, and build community with similar people.
 [Fosstodon.org](https://fosstodon.org) is a instance with around 2,000* members, posting on general topics but have a common interest in Free/Open Source Software.
 They require members to adhere to a well-defined [Code of Conduct](https://hub.fosstodon.org/code-of-conduct) that ensures constructive behaviour on the instance. No smut; no spam; no advertising or trolling. It's an English language only site that encourages civil discussion under the general advice of "don't be a jerk".
-Fosstodon has been gaining traction, with popular open-science projects coming on board, it will hopefully be a defacto place for future FOSS types to join in future. If you are quick, on smaller/medium instances you have a good chance of choosing your username of choice!
+Fosstodon has been gaining traction, with popular open-science projects coming on board, it will hopefully be a de-facto place for future FOSS types to join in future. If you are quick, on smaller/medium instances you have a good chance of choosing your username of choice!
 
 Other small/medium sites that are worth checking out are:
 * [floss.social](https://floss.social) (only a couple of hundred members*, but that may suit some)
