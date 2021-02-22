@@ -14,13 +14,13 @@ choice. I like to read, and in our house we have a couple of e-ink ebook
 readers - early generation Kindle and Kobo ones.
 Over the years, despite knowing the [numerous](https://www.bbc.co.uk/news/technology-47810367)
 [risks](https://www.theguardian.com/technology/2009/jul/17/amazon-kindle-1984)
-of owning DRM-restricted content, I seem to have picked up around 130 books,
-picking up most of these when heavily discounted. I figured that these were
-one-off, almost disposable low cost items - but over time, this has built into
-a significant library. I enjoy using an e-ink reader on holiday, or outdoors in
-summer, but more commonly I enjoy reading in bed at night on a tablet in dark
-mode - something that can't be done with a real book with a sleeping spouse
-beside you.
+of owning DRM-restricted content, I've picked up books from Amazon when they
+have been heavily discounted. I figured that these were one-off, almost
+disposable low cost items - but over time, this has built into a significant
+library of around 130 books. I enjoy using an e-ink reader on holiday, or
+outdoors in summer, but more commonly I enjoy reading in bed at night on a
+tablet in dark mode - something a real book can't offer when you have a
+sleeping spouse beside you.
 
 ![Book](/assets/images/book.jpg){: .centre-image width="450px"}
 
@@ -28,13 +28,14 @@ beside you.
 *Image credit Brenda Clarke/Flickr Creative Commons*
 
 Which brings me to something that happened this week. The Kindle app on my
-Android tablet stopped showing me DRM-restricted books. I tried removing the
-app, deregistering, clearing cache and data from the app. Only DRM-free
-books that I had bought elsewhere and sent to the Kindle app could be opened. I
-initiated a chat session with Amazon. The support guy tried a few things, and
-eventually closed all lines of enquiry with "in that case, your tablet in not
-supported", even though it satisfies the requirements specified in the Google
-Play Store, and that it worked last week. 
+Android tablet stopped opening DRM-restricted books, instead giving a black
+screen. I tried removing the app, deregistering, clearing cache and data from
+the app. Only DRM-free books that I had bought elsewhere and sent to the Kindle
+app could be opened successfully. I initiated a lengthy chat session with
+Amazon. The support guy tried a few things, and eventually closed all lines of
+enquiry with "in that case, your tablet in not `supported", even though it
+satisfies the requirements specified in the Google Play Store, and that it
+worked last week. 
 
 So that was it: Amazon had effectively taken away my content, since this was
 the chief device on which I consumed it.
