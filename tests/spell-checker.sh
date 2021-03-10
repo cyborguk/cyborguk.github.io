@@ -137,22 +137,26 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     )
 
     if [ "$bad_words" ]; then
+	# get rid of dupes and also we don't care about case.
+	# otherwise we produce too many results when we run the grep.
+	# xargs needs -0 to deal with any ' characters it finds
+	bad_words_unique=`echo $bad_words | tr ' ' '\n' | sort -fu | xargs -0`
         EXITCODE=1
         echo -e "\nError in file: $INPUTFILE\n"
 
-        for word in $bad_words; do
+        for word in $bad_words_unique; do
             TOTAL_ERRORS=$((TOTAL_ERRORS+1))
             echo "--- ${word}"
 
             # Get line for word, if not exact match, switch to full search
-            grep "\b${word}\b" -n $INPUTFILE.tmp
+            grep -i "\b${word}\b" -n $INPUTFILE.tmp
             if [ $? == 1 ]; then
-                grep "${word}" -n $INPUTFILE.tmp
+                grep -i "${word}" -n $INPUTFILE.tmp
             fi
         done
     fi
-
-	cleanup
+    
+    cleanup
 done
 
 echo -e "\nTotal errors: ${TOTAL_ERRORS}"
