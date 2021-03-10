@@ -11,9 +11,12 @@ Chuckie
 CLI
 CMS
 CoC
-compiz
-Compiz
 Ctrl
+compiz
+Disqus
+devops
+linter
+sanitisation
 CUDNN
 datacentre
 datasets
@@ -23,7 +26,6 @@ deletefacebook
 deregistering
 Digg
 discoverability
-Disqus
 distro
 distros
 DK
@@ -105,3 +107,4 @@ wget
 wireframe
 Xbox
 ZX
+mkdocs
