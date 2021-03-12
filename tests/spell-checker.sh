@@ -1,10 +1,9 @@
 #!/bin/bash
 # Spell checker for cyb.org.uk
-# Licenced under GPL
-
+# Initialise variables
 EXITCODE=0
 DICTFILE="./tests/.aspell-excluded_words.en_GB.pws"
-TOTAL_ERRORS=0
+ERRORS_FOUND=0
 
 cleanup() {
         rm $INPUTFILE.tmp
@@ -13,11 +12,14 @@ cleanup() {
 trap cleanup SIGINT SIGTERM SIGKILL SIGHUP
 
 # Gather the list of markdown files and process them
-# If jekyll, use _posts for the find path
-# If hugo, use content for the find path
+# If jekyll, use "_posts" for the find path
+# If hugo, use "content" for the find path
+# If mkdocs, use "docs"
 for filepath in $(find _posts -type f -name "*.md" -print); do
 	INPUTFILE=$filepath
 
+
+    # NOTE;
     #   We do not delete lines so that we can preserve line numbering, instead
     #   we just empty them
 
@@ -43,7 +45,17 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     # Remove HTML comments (of the form <!-- ... --> or <!--- ... -->) split
     # over several (complete) lines
     SED_REMOVE_MULTILINE_HTML_COMMENTS='/<!--/,/-->/s/^.*$//'
+    # Removes notebox definition before title
+    # eg:
+    #   !!! note "A Title"
+    #   A Title
+    SED_REMOVE_NOTEBOX_DEF_BEFORE_TITLE='s/^!!! [^ ]\+ "\([^"]\+\)"/\1/'
+    # Remove notebox definition without title (does not check for title should
+    # be run after $SED_REMOVE_NOTEBOX_DEF_BEFORE_TITLE
+    # eg:
+    #   !!! note
     #
+    SED_REMOVE_NOTEBOX_DEF='s/^!!!.*$//'
     # Remove code blocks
     # eg:
     #   ```bash
@@ -51,7 +63,6 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     #   ```
     #
     SED_REMOVE_CODE_BLOCKS='/```/,/```/s/^.*$//'
-    #
     # Remove inline code / script and style tags
     # Since the contents is likely non-english
     # eg:
@@ -66,7 +77,6 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     #   <code>
     #   bob
     #   </code>
-    #
     # Note:
     #   Due to backreferences not working in addresses this is 3 expressions
     code_part='/<code>/,/<\/code>/s/.*//g'
@@ -87,6 +97,7 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     # eg:
     #   <img src=""
     #   />
+    #
     #
     SED_REMOVE_MULTILINE_SELFCLOSING_HTML='/<[^>]\+$/,/\/>/s/^.*$//'
     # Remove multiline html
@@ -122,6 +133,8 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
             ${SED_REMOVE_HYPERLINKS_SQUARE};
             ${SED_REMOVE_HTML_COMMENTS};
             ${SED_REMOVE_MULTILINE_HTML_COMMENTS};
+            ${SED_REMOVE_NOTEBOX_DEF_BEFORE_TITLE};
+            ${SED_REMOVE_NOTEBOX_DEF};
             ${SED_REMOVE_MULTILINE_CODE_TAGS};
             ${SED_REMOVE_INLINE_SELFCLOSING_HTML};
             ${SED_REMOVE_INLINE_HTML};
@@ -137,17 +150,23 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
     )
 
     if [ "$bad_words" ]; then
+        # Get a running total of errors found
+        bad_increment=`echo $bad_words | wc -w`
+        ERRORS_FOUND=$((ERRORS_FOUND+$bad_increment))
+	# get rid of dupes and also we don't care about case.
+	# otherwise we produce too many results when we run the grep.
+	# xargs needs -0 to deal with any ' characters it finds
+        bad_words_unique=`echo $bad_words | tr ' ' '\n' | sort -fu | xargs -0`
         EXITCODE=1
         echo -e "\nError in file: $INPUTFILE\n"
 
-        for word in $bad_words; do
-            TOTAL_ERRORS=$((TOTAL_ERRORS+1))
+        for word in $bad_words_unique; do
             echo "--- ${word}"
 
             # Get line for word, if not exact match, switch to full search
-            grep "\b${word}\b" -n $INPUTFILE.tmp
+            grep "\b${word}\b" -in $INPUTFILE.tmp
             if [ $? == 1 ]; then
-                grep "${word}" -n $INPUTFILE.tmp
+                grep "${word}" -in $INPUTFILE.tmp
             fi
         done
     fi
@@ -155,6 +174,7 @@ for filepath in $(find _posts -type f -name "*.md" -print); do
 	cleanup
 done
 
-echo -e "\nTotal errors: ${TOTAL_ERRORS}"
+echo -e "\nTotal errors: ${ERRORS_FOUND}"
 
 exit $EXITCODE
+
