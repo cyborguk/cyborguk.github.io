@@ -122,7 +122,7 @@ touch temp/test
 
 You can also call the last used occurrence of a command with a `!` in front.
 For example, `!ping` will run the last command you ran beginning with `ping`.
-This is a powerful time saver, which I use all the time (e.g. !vim with open
+This is a powerful time saver, which I use all the time (e.g. `!vim` will open
 the vim editor with the last file I opened - handy when performing a few
 consecutive edits on a file) but you need to be sure of what you
 are doing when using riskier commands. Again, you can add a `:p` to show
