@@ -37,12 +37,16 @@ favourite editor. After saving, you can load the new settings with `source
 
 Some bash commands are used to provide some moment-in-time information but
 don't change your environment, and aren't useful in your history. Adding the
-HISTIGNORE variable to your `.bashrc` file allows you to choose which commands
-to ignore. 
+HISTIGNORE variable to your `.bashrc` file allows you to choose which
+standalone commands to drop from your history. Here's an example: 
 
 ```
-export HISTIGNORE='pwd:exit:fg:bg:top:clear:history:ls'
+export HISTIGNORE='pwd:exit:fg:bg:top:clear:history:ls:uptime:df'
 ```
+
+Add to this list or remove from it as you see fit - some people use the `ll` as
+an alias of `ls -alF`. A frequent user might want to stop this from appearing
+in their history too.
 
 As a bonus, if you don't want certain sensitive commands appearing in your
 history, for example if you are specifying a password or API key on the command
@@ -63,8 +67,8 @@ concurrent shell sessions, then only entries from the last exiting shell is
 saved (history is saved in memory and written to the history file upon exit).
 Another annoyance can be that you may share a root shell with other
 administrators on a server, and important history gets lost because the history
-file is too small. I usually set a history file size of 10,000 entries to avoid
-losing an audit trail. 
+file is too small. I usually set a history file size of at least 10,000 entries
+to avoid losing an audit trail, or useful commands. 
 
 ```
 shopt -s histappend
@@ -139,8 +143,10 @@ it:
 
 ```
 $ mv list.txt items.txt
-$ git add !$
-git add items.txt
+$ vim !$
+vim items.txt
+$ cp !$ shopping.txt
+cp items.txt shopping.txt
 ```
 
 The `!$` expands to the value of the last item, i.e `items.txt`.
