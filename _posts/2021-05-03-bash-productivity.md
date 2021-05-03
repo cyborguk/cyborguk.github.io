@@ -149,8 +149,8 @@ $ cp !$ shopping.txt
 cp items.txt shopping.txt
 ```
 
-The `!$` expands to the value of the last item, i.e after the `mv` command,
-`!$` expands to `items.txt`.
+The `!$` expands to the value of the last parameter of the previous line, i.e
+after the `mv` command, `!$` expands to `items.txt`.
 
 Using `!*` will expand the value of all of the parameters on the previous line
 (i.e. the whole line except the first word). Not quite as commonly used as `!$`
