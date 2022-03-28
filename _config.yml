@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            cyb.org.uk
-description:      'A blog about technology & open source'
+description:      'blogging about technology & open source'
 url:              https://cyb.org.uk
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
