@@ -16,4 +16,4 @@ This blog is produced using Jekyll, and uses the Hydeout theme. No trackers or
 javascript are used on this site.
 
 Instead of a comments section on this blog, I encourage you to toot at me on
-[Mastodon](https://fosstodon.org/@simon).
+<a rel="me" href="https://fosstodon.org/@simon">Mastodon</a>
