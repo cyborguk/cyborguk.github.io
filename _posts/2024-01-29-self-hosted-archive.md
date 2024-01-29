@@ -44,7 +44,7 @@ It's a good idea to leave most of these methods enabled, since although the wget
 ![](/assets/images/archivebox2.png)
 
 {: .image-caption}
-*Inspecting an archived article*
+*Inspecting an archived article. The top banner showing the different archive methods is collapsible*
 
 ## ArchiveBox deployment
 
