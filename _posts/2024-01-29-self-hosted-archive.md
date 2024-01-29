@@ -31,8 +31,7 @@ The UI also offers the option to take a new snapshot with the Re-Snapshot button
 ![](/assets/images/archivebox1.png)
 
 {: .image-caption}
-*Peforming a text search on the archived content*
-
+*Performing a text search on the archived content*
 
 Regarding search, the default is to use ripgrep on the backend to search the archive, which has been sufficient for me so far. There is also the option to use the Sonic search backend, which offers fuzzy text searching, but the documentation doesn't explain enough for me to understand the difference, usage or benefits. There is an issue outstanding to improve the docs for the features offered by Sonic.
 
@@ -42,9 +41,14 @@ By default, ArchiveBox will save a copy of the required website using a variety 
 
 It's a good idea to leave most of these methods enabled, since although the wget clone method is usually reliable, it sometimes doesn't produce the desired results, while Chrome->Singlefile snapshots don't allow replay of javascript, so you can't minimise a banner that might be obscuring a page. The PDF results are usually very good, and there is also a text-only readability mode. One of these methods will provide the full article cleanly, even if another method fails for some reason. 
 
+![](/assets/images/archivebox2.png)
+
+{: .image-caption}
+*Inspecting an archived article*
+
 ## ArchiveBox deployment
 
-I recently acquired a Wyse 5070 Thin Client PC which sips power and is completely silent. I replaced the existing M.2 SATA drive with a larger one, installed Ubuntu MATE 22.04, and deployed ArchiveBox using Docker, which had a well documented install procedure. I'm not a massive fan of Docker, but it seems like a good solution for this type of application, since there are a lot of dependencies would otherwise need keeping updated.
+I recently acquired a [Wyse 5070 Thin Client PC](https://www.dell.com/en-uk/shop/cty/pdp/spd/wyse-5070-thin-client) for less than the price of a Raspberry Pi. It sips power and is completely silent. I replaced the existing M.2 SATA drive with a larger one, installed Ubuntu MATE 22.04, and deployed ArchiveBox using Docker, which had a well documented install procedure. I'm not a massive fan of Docker, but it seems like a good solution for this type of application, since there are a lot of dependencies would otherwise need keeping updated.
 
 I have pi-hole on my network already, which reduces the ads, but there is a documented method of spinning up pi-hole docker instance to funnel requests through, in order to clean up archived content.
 
