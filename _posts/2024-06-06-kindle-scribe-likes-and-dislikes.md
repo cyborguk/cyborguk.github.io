@@ -196,6 +196,18 @@ backlight. So onto, the things I'd like to see improved:
 
 ## Summary
 
+How does the Scribe change things for me? Having a larger e-ink screen that I
+can use at night means that I will go for ebooks ahead of paper books in most
+cases now. I'm also going to make a better effort to manage my chaotic ebook
+library. I also find that I'm using my 4th Generation Kindle more when I'm out
+and about, for those short 10-15 minute time periods, since it's more portable,
+and my reading state is synced on both devices. Hopefully it encourages me to
+use my phone less for idle browsing. I will also reach for the Scribe instead
+of a paper notebook for planning, meeting notes and to-do lists. Time will tell
+how effective this will be. I will still likely carry a small notepad, along
+with a Fisher Space Pen around with me to scribble notes on, since the Scribe
+isn't exactly an everyday carry item.
+
 I do like this device, and it was a good buy at the price I paid. At
 the moment it's a very nice e-reader with some note taking and annotation
 features. It could be a very compelling all-round productivity, writing and
