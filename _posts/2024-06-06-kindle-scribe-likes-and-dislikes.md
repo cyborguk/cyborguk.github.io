@@ -9,9 +9,9 @@ tags:
 ---
 
 I like the idea of e-ink devices, and often think about how much I could make
-use of an e-ink tablet which allows writing with a stylus. The marketing
-hype would suggest that it's a life changer, which seems a bit strong, since
-they essentially aim to perform a similar function to pen and paper. Recently I
+use of an e-ink tablet which allows writing with a stylus. The marketing hype
+would suggest that it's a life changer, which seems a bit strong, since they
+essentially aim to perform a similar function to pen and paper. Recently I
 impulsively purchased a Kindle Scribe without having done much research on it.
 I've had a lot of thoughts swirling round since receiving it. Here is an
 attempt to put them into positive/negative categorisation.
@@ -21,25 +21,24 @@ attempt to put them into positive/negative categorisation.
 I read a fair mix of non-fiction and fiction, either on the train, in the
 garden on a sunny day, in bed with the lights out, or a quick 10 minutes in a
 waiting room. Some people aren't keen on reading ebooks, but I am quite content
-to read on an e-ink device (I own an early generation kobo and a kindle
-of similar vintage), or via an android tablet for shorter periods. I own a
-lot of paper books, but most were bought before ebooks became popular, or I
-needed a nicely formatted textbook, plus there are quite a few paper books i
-bought because they were cheaper to buy 2nd hand. I always check if a book is
+to read on an e-ink device (I own an early generation kobo and a kindle of
+similar vintage), or via an android tablet for shorter periods. I own a lot of
+paper books, but most were bought before ebooks became popular, or I needed a
+nicely formatted textbook, plus there are quite a few paper books i bought
+because they were cheaper to buy 2nd hand. I always check if a book is
 available from my library via Borrowbox or Libby before purchase.
 
 ![](/assets/images/scribe2.png)
 
-{: .image-caption}
+{: .image-caption} 
 *Reading an ebook on the Kindle 4th Generation (L) alongside the Scribe (R).* 
 
 I own a pile of notebooks and favourite pens and regularly write lists, doodle
 and take notes. I've watched the Remarkable tablet from afar, and I think it
-looks really nice.
-Unfortunately the price, and lack of built-in illumination put me off. But
-mostly the price. Similarly the Supernote looks great but I would really have
-to be convinced of the benefits before shelling out over £400 for lifestyle
-device.
+looks really nice.  Unfortunately the price, and lack of built-in illumination
+put me off. But mostly the price. Similarly the Supernote looks great but I
+would really have to be convinced of the benefits before shelling out over £400
+for lifestyle device.
 
 These devices remained something that I would "buy if I was rich". Then, my
 manager told me that he'd picked up a new, sealed 32GB Kindle Scribe for less
@@ -56,11 +55,11 @@ spent a lot of time researching cases...
 It's a monochrome e-ink device, with a lovely 10.2 inch 300ppi screen, plus a
 stylus. I watched quite a few YouTube videos between purchasing and receiving
 the device, and I developed a picture of what it can do. As is typical with
-YouTube, the most sensational content rises to the
-top, and some of the drawbacks I've experienced weren't covered. Some of this
-is due to the fact that a lot of the videos were made shortly after release -
-most of the negative criticism seemed to refer to the most obvious deficiencies
-which have largely been resolved by subsequent releases.
+YouTube, the most sensational content rises to the top, and some of the
+drawbacks I've experienced weren't covered. Some of this is due to the fact
+that a lot of the videos were made shortly after release - most of the negative
+criticism seemed to refer to the most obvious deficiencies which have largely
+been resolved by subsequent releases.
 
 I'm going to list a few likes and dislikes I've discovered while using the
 device for a short while. I might refer to the competing devices in the market
@@ -69,38 +68,66 @@ in the market as it appears to be a reading device that happens to have some
 annotation features. The Remarkable and Supernote appear to primarily be
 note-taking and planning tablets with e-reading capabilities. 
 
-### Likes
+Annotation of ebooks takes the form of sticky notes which can be handwritten.
+Once a note is added, a small icon appears in the text to denote presence of
+the note. You can tap on it to view the content. Usually I find that by also
+highlighting the text, it draws the eye a bit better to the existence of a
+note. A PDF of all the notes and highlights can be emailed to yourself, or
+viewed directly on the Kindle.
 
-* The 10.2 inch screen is a nice size, and reading ebooks is really enjoyable
-  on a larger screen. Build quality feels good, which is also to be expected,
-  given the competition.
-* The backlight is an essential feature for me, as I tend to read a lot at
-  night. One feature I'm particularly happy about is the warm/cool backlight
-  option - brightness and warmth are configurable on a sliding scale. 
-* The supplied "premium pen" stylus is pleasant enough to write with, and is
-  pressure sensitive. Apparently the nibs wear down after a while, and you are
-  supplied with a spare set in the box. Replacements are not too expensive. It
-  has a button which can be assigned to erase/highlight, and an eraser on the
-  tip. It would have been nice if the eraser was made of a softer rubber, like
-  the Remarkable.
-* Battery life is excellent, and in occasional use, you might go weeks between
-  charges. Writing uses a bit more battery than reading. Note also that the
-  stylus is a fancy Wacom pen which doesn't require charging. It magnetically
-  attaches to the side of the Kindle.
-* Within the note-taking tool, an adequate range of pen/pencil/marker pens and
-  thicknesses are available. 
-* Auto rotate functionality allows 180-degree rotation, however switching PDF
-  views from portrait to landscape requires tapping an option in the Aa font
-  menu.
-* Since you can write directly onto PDFs, it's possible to create your own
-  planner/calendar/to-do list page to your liking. Alternatively the notebook
-  feature provides a selection of templates to choose from.
-* OCR of handwritten notes is provided at no extra cost or subscription.
+![](/assets/images/scribe4.png)
+
+{: .image-caption}
+*Adding a handwritten note to an ebook*
+
+
+![](/assets/images/scribe5.png)
+
+{: .image-caption} 
+*Subsequently viewing all notes and highlights*
+
+Annotation of PDFs is more intuitive and allows you to write directly on the
+page. You can email yourself the PDF and it will contain your handwritten
+annotations within the document.
 
 ![](/assets/images/scribe3.png)
 
 {: .image-caption}
 *Making notes directly onto a PDF*
+
+### Likes
+
+* The 10.2 inch screen is a nice size, and reading ebooks is really enjoyable
+  on a larger screen. Build quality feels good, which is also to be expected,
+given the competition.
+* The backlight is an essential feature for me, as I tend to read a lot at
+  night. One feature I'm particularly happy about is the warm/cool backlight
+option - brightness and warmth are configurable on a sliding scale. 
+* The supplied "premium pen" stylus is pleasant enough to write with, and is
+  pressure sensitive. Apparently the nibs wear down after a while, and you are
+supplied with a spare set in the box. Replacements are not too expensive. It
+has a button which can be assigned to erase/highlight, and an eraser on the
+tip. It would have been nice if the eraser was made of a softer rubber, like
+the Remarkable.
+* Battery life is excellent, and in occasional use, you might go weeks between
+  charges. Writing uses a bit more battery than reading. Note also that the
+stylus is a fancy Wacom pen which doesn't require charging. It magnetically
+attaches to the side of the Kindle.
+* Within the note-taking tool, an adequate range of pen/pencil/marker pens and
+  thicknesses are available. 
+* Since you can write directly onto PDFs, it's possible to create your own
+  planner/calendar/to-do list page to your liking. Alternatively the notebook
+feature provides a selection of templates to choose from.
+* OCR of handwritten notes is provided at no extra cost or subscription.
+* Auto rotate functionality allows 180-degree rotation, however switching PDF
+  views from portrait to landscape requires tapping an option in the Aa font
+  menu. The large screen size means than 2-column landscape view is possible for
+  ebooks is possible.
+
+![](/assets/images/scribe6.png)
+
+{: .image-caption}
+*2 column landscape view for ebooks is a nice option to have*
 
 ### Dislikes
 
@@ -119,7 +146,9 @@ backlight. So onto, the things I'd like to see improved:
 * File management is pretty poor, including filtering and moving files around.
   I ultimately decided on using Collections to manage which books I see at any
   given time.
-* Document import/export doesn't make use of any cloud drive services. To send
+* Document import/export doesn't make use of any cloud drive services (apart
+  from your Kindle library automatically appearing on the device, complete with
+  progress synchronisation). To send other
   PDFs or ebooks to the Scribe, you have three options: email them to your
   device's unique kindle email address, use the "Send to Kindle" web site, or
   connect a usb cable and use Calibre to manage your collection. Once a PDF has
