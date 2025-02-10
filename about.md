@@ -15,5 +15,5 @@ articles to document results of things I've been working on or thinking about.
 This blog is produced using Jekyll, and uses the Hydeout theme. No trackers or
 javascript are used on this site.
 
-Instead of a comments section on this blog, I encourage you to toot at me on
-<a rel="me" href="https://fosstodon.org/@simon">Mastodon</a>
+Instead of a comments section on this blog, I encourage you to contact me on
+<a rel="me" href="https://mastodonapp.uk/@foobarry">Mastodon</a>
