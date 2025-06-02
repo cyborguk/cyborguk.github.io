@@ -16,4 +16,4 @@ This blog is produced using Jekyll, and uses the Hydeout theme. No trackers or
 javascript are used on this site.
 
 Instead of a comments section on this blog, I encourage you to contact me on
-<a rel="me" href="https://mastodonapp.uk/@foobarry">Mastodon</a>
+<a rel="me" href="https://mastodon.social/@foobarry">Mastodon</a>
