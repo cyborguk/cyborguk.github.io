@@ -50,9 +50,9 @@ After all this, I had a working installation, but the experience had left a sour
 
 I'm sure that the most (particularly non-Docker) users have had a much smoother experience, but I got off on the bad foot and while I was evaluating one service, I thought I'd also try the other bookmarking service that I'd heard about, namely Karakeep.
 
-Things I liked about wallabag: decent UI, ability to send articles to an e-reader, optional centrally hosted service available
+**Things I liked about wallabag**: decent UI, ability to send articles to an e-reader, optional centrally hosted service available
 
-Things I didn't like: as the ultimate administrator of the system, I was put off by the bugs and issues I experienced, and the more heavyweight requirements (mysql instead of sqlite, etc) perhaps suggest this is service designed for a larger scale than my lightweight needs.
+**Things I didn't like**: as the ultimate administrator of the system, I was put off by the bugs and issues I experienced, and the more heavyweight requirements (mysql instead of sqlite, etc) perhaps suggest this is service designed for a larger scale than my lightweight needs.
 
 ## Karakeep
 
@@ -89,9 +89,9 @@ I found an [issue](https://github.com/karakeep-app/karakeep/issues/414) describi
 
 I really want a solution that I can trust to store bookmarks and local copies of articles without having to keep checking if it's worked OK. I realise that Pocket never stored local copies but this feature is pretty compelling to me. Readeck was mentioned in a comment on the Github issue, and I was intrigued. So, I guess I was going to try the _third_ attempt at a replacement for Pocket inside 1 week...
 
-Things I liked about karakeep: fast, nice UI, browser extension, decent android app, ability to additionally archive pages with SingleFile. Ingestion of RSS feeds (such as items that I've bookmarked on mastodon or reddit). I didn't try the optional AI features but some people may find it helpful.
+**Things I liked about karakeep**: fast, nice UI, browser extension, decent android app, ability to additionally archive pages with SingleFile. Ingestion of RSS feeds (such as items that I've bookmarked on mastodon or reddit). I didn't try the optional AI features but some people may find it helpful.
 
-Things I didn't like so much: the dealbreaker cookie problem. Also, when viewing links in karakeep, the default action is to open the source website when clicked on - I think I'd rather read my local copy by default.
+**Things I didn't like so much**: the dealbreaker cookie problem. Also, when viewing links in karakeep, the default action is to open the source website when clicked on - I think I'd rather read my local copy by default.
 
 ## Readeck
 
@@ -132,9 +132,9 @@ A very nice feature is the ability to download one or all articles as epub. Some
 {: .image-caption}
 *Reading an article on my Kindle Scribe after downloading as epub*
 
-What I like about Readeck: easy installation, browser extension, epub downloads, fast & intuitive UI, good range of features.
+**What I like about Readeck**: easy installation, browser extension, epub downloads, fast & intuitive UI, good range of features.
 
-What I'd like to see: there's not much to dislike here. Maybe a couple of tweaks to the UK might help me find the right option more easily (such as bookmark export/import), but it's a really minor niggle. A feature such as optional archival of the page using SingleFile would really be the cherry on top of the cake for me. I've seen it discussed positively in the Enhancement requests, so maybe it will be a future addition, even one that might replace my use of Archivebox for permanent archival of pages. One other [requested feature](https://codeberg.org/readeck/readeck/issues/424) is ingestion of RSS feeds. This is possible within Karakeep, and I would potentially find this useful too.
+**What else I'd like to see**: there's not much to dislike here. Maybe a couple of tweaks to the UK might help me find the right option more easily (such as bookmark export/import), but it's a really minor niggle. A feature such as optional archival of the page using SingleFile would really be the cherry on top of the cake for me. I've seen it discussed positively in the Enhancement requests, so maybe it will be a future addition, even one that might replace my use of Archivebox for permanent archival of pages. One other [requested feature](https://codeberg.org/readeck/readeck/issues/424) is ingestion of RSS feeds. This is possible within Karakeep, and I would potentially find this useful too.
 
 ## Summary
 
